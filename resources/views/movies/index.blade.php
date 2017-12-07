@@ -25,7 +25,7 @@
     
    <div class="col-md-4">
    <div class="card mb-3">
-        <img class="card-img-top" src="http://via.placeholder.com/350x150" alt="Card image cap">
+        <img class="card-img-top responsive" src="{{ $item->url }}" alt="Card image cap">
         <div class="card-body">
           <h4 class="card-title">{{ $item->name }}</h4>
           <p class="card-text info">{{ $item->description }}</p>

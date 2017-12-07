@@ -52,6 +52,7 @@ class MovieController extends Controller
             $movie->rating = $request->input('rating');
             $movie->description = $request->input('description');
             $movie->review = $request->input('review');
+            $movie->url = $request->input('url');
 
             $movie->save();
 

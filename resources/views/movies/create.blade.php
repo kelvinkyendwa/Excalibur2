@@ -21,6 +21,10 @@
                             {{Form::label('rating', 'Rating')}}
                             {{Form::text('rating', '' , [ 'class' => 'form-control', 'placeholder'=> 'Out of ten'] )}}
                 </div>
+                <div class="form-group">
+                            {{Form::label('url', 'Image Url')}}
+                            {{Form::text('url', '' , [ 'class' => 'form-control', 'placeholder'=> 'Url'] )}}
+                </div>
                 <div class="form-row">
                         <div class="col">
                             {{Form::label('description', 'Description')}}

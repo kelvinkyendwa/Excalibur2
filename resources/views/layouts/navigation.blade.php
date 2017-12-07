@@ -14,7 +14,9 @@
         <li class="nav-item">
           <a class="nav-link" href="{{ url ('/trailers')}}"></i> TRAILERS </a>
         </li>
-        
+        <li class="nav-item">
+          <a class="nav-link" href="{{ url ('/blog')}}"></i> BLOG </a>
+        </li>
         @if (Auth::check())
         <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

@@ -5,7 +5,7 @@
     <div class="container py-5">
       <div class="row">
         <div class="col-md-12 text-white">
-          <h1 class="mb-4 display-2">Excalibur Reloaded</h1> 
+          
           <!-- <p class="lead mb-5">Tv Shows and Movie Reviews </p> -->
           <a href="{{ url ('/movies')}}" class="btn btn-lg mx-1 btn-secondary">Movies</a>
           <a href="{{ url ('/series')}}" class="btn btn-lg btn-warning mx-1">Tv Shows</a>

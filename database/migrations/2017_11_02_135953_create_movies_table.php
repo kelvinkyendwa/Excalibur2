@@ -21,6 +21,7 @@ class CreateMoviesTable extends Migration
           $table->text('description');
           $table->timestamp('release_date');
           $table->text('review');
+          $table->text('url');
           $table->timestamps();
         });
     }
